@@ -1,6 +1,10 @@
 # Automated build of HA k3s Cluster with `kube-vip` and MetalLB
 
-![Fully Automated K3S etcd High Availability Install](https://img.youtube.com/vi/CbkEWcUZ7zM/0.jpg)
+![CI](https://github.com/HoneyBearTech/k3s-ansible/actions/workflows/ci.yml/badge.svg)
+![Lint](https://github.com/HoneyBearTech/k3s-ansible/actions/workflows/lint.yml/badge.svg)
+![Test](https://github.com/HoneyBearTech/k3s-ansible/actions/workflows/test.yml/badge.svg)
+
+
 
 This playbook will build an HA Kubernetes cluster with `k3s`, `kube-vip` and MetalLB via `ansible`.
 
